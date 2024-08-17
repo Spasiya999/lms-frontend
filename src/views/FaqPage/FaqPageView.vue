@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid py-5">
-        <div class="container">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
             <div class="row">
 
                 <h3 class="text-center fw-bold display-4 fw-bold lh-1 text-body-emphasis mb-3">

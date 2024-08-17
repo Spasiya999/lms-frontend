@@ -1,51 +1,61 @@
 <template>
-  <div class="container-fluid py-5">
-    <div class="container">
+  <div class="container-fluid">
+    <div class="container col-xl-10 col-xxl-8 px-4">
+
+      <div class="row align-items-center g-lg-5 pt-5 pb-3">
+        <div class="col-lg-12 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3 text-center">Courses</h1>
+        </div>
+      </div>
+
       <div class="row">
 
-        <div class="col-lg-2 col-12 border-end border-3 px-3">
+        <div class="col-lg-12 col-12">
+          <div class="row m-2 px-1 py-2 bg-dark-subtle rounded-3">
+            <div class="col-12 d-flex gap-3 me-auto">
 
-          <h6 class="text-bold fw-bold mb-3">
-            Filterd by Categories:
-          </h6>
-
-          <div class="dropdown-center mb-2">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-              data-bs-display="static" aria-expanded="false">
-              Categories
-            </button>
-            <ul class="dropdown-menu dropdown-menu-start">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Action two</a></li>
-              <li><a class="dropdown-item" href="#">Action three</a></li>
-            </ul>
-          </div>
-
-          <div class="dropdown-center mb-2">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-              data-bs-display="static" aria-expanded="false">
-              Time Period
-            </button>
-            <ul class="dropdown-menu dropdown-menu-start">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Action two</a></li>
-              <li><a class="dropdown-item" href="#">Action three</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-10 col-12">
-          <div class="row px-3">
-            <div class="col-6">
-              <h2 class="">Courses list</h2>
-            </div>
-            <div class="col-6 text-end">
-              <div class="dropdown-center">
+              <div class="dropdown-center me-auto">
                 <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown"
                   data-bs-display="static" aria-expanded="false">
                   Sort by
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end">
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="dropdown-item">Name</div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item">Date</div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item">Rating</div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="dropdown-center">
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown"
+                  data-bs-display="static" aria-expanded="false">
+                  Course Type
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="dropdown-item">Name</div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item">Date</div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item">Rating</div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="dropdown-center">
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown"
+                  data-bs-display="static" aria-expanded="false">
+                  Period
+                </button>
+                <ul class="dropdown-menu">
                   <li>
                     <div class="dropdown-item">Name</div>
                   </li>
@@ -65,7 +75,7 @@
             <div class="col-lg-3 col-6">
               <div class="p-2">
                 <div class="card">
-                  <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+                  <img src="../../../public/Images/4956898_2592288.svg"
                     class="card-img-top w-100" alt="gg">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -80,7 +90,7 @@
             <div class="col-lg-3 col-6">
               <div class="p-2">
                 <div class="card">
-                  <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+                  <img src="../../../public/Images/sadasd.svg"
                     class="card-img-top w-100" alt="gg">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -95,7 +105,7 @@
             <div class="col-lg-3 col-6">
               <div class="p-2">
                 <div class="card">
-                  <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+                  <img src="../../../public/Images/5483080_2844250.svg"
                     class="card-img-top w-100" alt="gg">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -110,7 +120,7 @@
             <div class="col-lg-3 col-6">
               <div class="p-2">
                 <div class="card">
-                  <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+                  <img src="../../../public/Images/5359381_2788522.jpg"
                     class="card-img-top w-100" alt="gg">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>

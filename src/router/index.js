@@ -7,6 +7,8 @@ import ContacPage from '@/views/Contactpage/ContacPage.vue';
 import FaqPageView from '@/views/FaqPage/FaqPageView.vue';
 import SingleCoursePage from '@/views/CoursesPage/SingleCoursePage.vue';
 import MyProfilePageView from '@/views/MyProfilePage/MyProfilePageView.vue';
+import NewsAndEventsPageView from '@/views/NewsAndEventPage/NewsAndEventsPageView.vue';
+import NAESinglePageView from '@/views/NewsAndEventPage/NAESinglePageView.vue';
 
 const routes = [
     {
@@ -43,6 +45,16 @@ const routes = [
         path: '/my-profile',
         name: 'my-profile',
         component: MyProfilePageView
+    },
+    {
+        path: '/news-and-events',
+        name: 'news-and-events',
+        component: NewsAndEventsPageView
+    },
+    {
+        path: '/news-and-events/1',
+        name: 'single-news-and-event',
+        component: NAESinglePageView
     }
 ]
 
