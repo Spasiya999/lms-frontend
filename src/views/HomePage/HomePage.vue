@@ -86,59 +86,51 @@
     </div>
 
     <div class="container px-4 py-5">
-        <h1 class="pb-2 border-bottom text-center display-4 fw-bold lh-1 text-body-emphasis mb-3">Features with title</h1>
+        <h1 class="pb-2 border-bottom text-center display-4 fw-bold lh-1 text-body-emphasis mb-3">Features We Provide</h1>
 
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
             <div class="col d-flex flex-column align-items-start gap-2">
-                <h2 class="fw-bold text-body-emphasis">We have most respected Courses</h2>
+                <h2 class="fw-bold text-body-emphasis">We have a lot of features to help you</h2>
                 <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add
                     onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="btn btn-primary btn-lg">Primary button</a>
+                <router-link to="/courses" @click="scrollToTop()" class="btn btn-primary btn-lg">See More Courses</router-link>
             </div>
 
             <div class="col">
                 <div class="row row-cols-1 row-cols-sm-2 g-4">
                     <div class="col d-flex flex-column gap-2">
                         <div
-                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#collection"></use>
-                            </svg>
+                            class="feature-icon-small p-2 d-inline-flex align-items-center justify-content-center  bg-gradient fs-1 rounded-3">
+                            <i class="fa-solid fa-book text-primary"></i>
                         </div>
-                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Library Features</h4>
                         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
                     </div>
 
                     <div class="col d-flex flex-column gap-2">
                         <div
-                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#gear-fill"></use>
-                            </svg>
+                            class="feature-icon-small p-2 d-inline-flex align-items-center justify-content-center  bg-gradient fs-1 rounded-3">
+                            <i class="fa-solid fa-hotel text-primary"></i>
                         </div>
-                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Hostel Facilities</h4>
                         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
                     </div>
 
                     <div class="col d-flex flex-column gap-2">
                         <div
-                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#speedometer"></use>
-                            </svg>
+                            class="feature-icon-small p-2 d-inline-flex align-items-center justify-content-center  bg-gradient fs-1 rounded-3">
+                            <i class="fa-solid fa-school text-primary"></i>
                         </div>
-                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Online Classes</h4>
                         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
                     </div>
 
                     <div class="col d-flex flex-column gap-2">
                         <div
-                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                            <svg class="bi" width="1em" height="1em">
-                                <use xlink:href="#table"></use>
-                            </svg>
+                            class="feature-icon-small p-2 d-inline-flex align-items-center justify-content-center  bg-gradient fs-1 rounded-3">
+                            <i class="fa-solid fa-graduation-cap text-primary"></i>
                         </div>
-                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Online Exams</h4>
                         <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
                     </div>
                 </div>
